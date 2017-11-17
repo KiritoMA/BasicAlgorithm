@@ -7,6 +7,6 @@ def check_vote(name):
         vote[name] = True
         print("let him vote")
 
-print(check_vote("tom"))
-print(check_vote("mike"))
-print(check_vote("mike"))
+check_vote("tom")
+check_vote("mike")
+check_vote("mike")
