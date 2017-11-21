@@ -1,0 +1,31 @@
+graph = {}
+graph["start"] = {}
+graph["start"]["a"] = 2
+graph["start"]["b"] = 5
+graph["a"] = {}
+graph["a"]["c"] = 7
+graph["a"]["b"] =8
+graph["b"] = {}
+graph["b"]["d"] = 4
+graph["b"]["c"] = 2
+graph["c"] = {}
+graph["c"]["fin"] = 1
+graph["d"] = {}
+graph["d"]["c"] = 6
+graph["d"]["fin"] = 3
+graph["fin"] = {}
+
+infinity = float("inf")
+costs = {}
+costs["a"] =2
+costs["b"] =5
+costs["c"] =infinity
+costs["d"] = infinity
+costs["fin"] = infinity
+
+parents = {}
+parents["a"] = "start"
+parents["b"] = "start"
+parents["c"] = None
+parents["d"] = None
+parents["fin"] = None
